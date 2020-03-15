@@ -1,23 +1,29 @@
+import java.util.Scanner;
+
 public class ShortLongNumber {
-    private static final String TEXT_ARRAY = "Массив чисел: ";
+
+    private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
     private static final String TEXT_RESULT = "%nСамое короткое число: %s, его длина: %d%nСамое длинное число: %s, его длина: %d";
-    public static void main(String args[]){
-        int shrt = 10;
-        int lng = 0;
-        String shrtNum=null;
-        String lngNum=null;
-        System.out.println(TEXT_ARRAY);
-        for (String num: args){
-            System.out.printf("%s ",num);
-            if (num.length() < shrt) {
-                shrt = num.length();
-                shrtNum = num;
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println(TEXT_ENTER_NUMBER);
+        String stringNumbers = in.nextLine();
+        String[] numbers = stringNumbers.split(" ");
+
+        String shortNumber = null;
+        String longNumber = null;
+
+        for (String number : numbers) {
+            if (shortNumber == null || number.length() <= shortNumber.length()) {
+                shortNumber = number;
             }
-            if (num.length() > lng){
-                lng = num.length();
-                lngNum = num;
+
+            if (longNumber == null || number.length() >= longNumber.length()) {
+                longNumber = number;
             }
         }
-        System.out.printf(TEXT_RESULT, shrtNum, shrt, lngNum,  lng);
+
+        System.out.printf(TEXT_RESULT, shortNumber, shortNumber.length(), longNumber, longNumber.length());
     }
 }
