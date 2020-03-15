@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="6" />
+    <option name="y" value="-10" />
+    <option name="width" value="1378" />
+    <option name="height" value="780" />
+  </component>
+  <component name="ProjectId" id="1Yu2kFOCDBuiO0TYxFCcuzVRyxN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager" selected="Application.Months">
+    <configuration name="CommLineArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommLineArguments" />
+      <module name="MainTask" />
+      <option name="PROGRAM_PARAMETERS" value="orange green yellow blue pink " />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloUser" />
+      <module name="MainTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Months" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Months" />
+      <module name="MainTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RandomNumbers" />
+      <module name="MainTask" />
+      <option name="PROGRAM_PARAMETERS" value="2 17 5 13 9 78 1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SummMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SummMulti" />
+      <module name="MainTask" />
+      <option name="PROGRAM_PARAMETERS" value="12 3 78 1 9 5 7" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.CommLineArguments" />
+      <item itemvalue="Application.HelloUser" />
+      <item itemvalue="Application.Months" />
+      <item itemvalue="Application.RandomNumbers" />
+      <item itemvalue="Application.SummMulti" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Months" />
+        <item itemvalue="Application.SummMulti" />
+        <item itemvalue="Application.RandomNumbers" />
+        <item itemvalue="Application.HelloUser" />
+        <item itemvalue="Application.CommLineArguments" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="" />
+      <created>1583778299882</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583778299882</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="232" y="152" key="#Project_Structure" timestamp="1583778340941">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="232" y="152" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1583778340941" />
+    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584202460309">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584202460309" />
+    <state width="1200" height="297" key="GridCell.Tab.0.bottom" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.0.center" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.0.left" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.0.right" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.1.bottom" timestamp="1584215389863">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584215389863" />
+    <state width="1200" height="297" key="GridCell.Tab.1.center" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.1.left" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="297" key="GridCell.Tab.1.right" timestamp="1584215389862">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state width="1200" height="297" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1584269291119">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584269291119" />
+    <state x="348" y="125" key="refactoring.ChangeSignatureDialog" timestamp="1583780985731">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="348" y="125" key="refactoring.ChangeSignatureDialog/0.0.1280.984@0.0.1280.984" timestamp="1583780985731" />
+  </component>
+</project>
