@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="" />
+    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ShortLongNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -32,6 +38,7 @@
     <option name="height" value="780" />
   </component>
   <component name="ProjectId" id="1Yu2kFOCDBuiO0TYxFCcuzVRyxN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,15 +52,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.Months">
-    <configuration name="CommLineArguments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommLineArguments" />
-      <module name="MainTask" />
-      <option name="PROGRAM_PARAMETERS" value="orange green yellow blue pink " />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShortLongNumber">
     <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HelloUser" />
       <module name="MainTask" />
@@ -76,6 +75,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShortLongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ShortLongNumber" />
+      <module name="MainTask" />
+      <option name="PROGRAM_PARAMETERS" value="135 1 12 568765 131 2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SummMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SummMulti" />
       <module name="MainTask" />
@@ -85,19 +92,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CommLineArguments" />
       <item itemvalue="Application.HelloUser" />
       <item itemvalue="Application.Months" />
       <item itemvalue="Application.RandomNumbers" />
       <item itemvalue="Application.SummMulti" />
+      <item itemvalue="Application.ShortLongNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShortLongNumber" />
         <item itemvalue="Application.Months" />
         <item itemvalue="Application.SummMulti" />
         <item itemvalue="Application.RandomNumbers" />
         <item itemvalue="Application.HelloUser" />
-        <item itemvalue="Application.CommLineArguments" />
       </list>
     </recent_temporary>
   </component>
@@ -131,26 +138,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="232" y="152" key="#Project_Structure/0.0.1280.984@0.0.1280.984" timestamp="1583778340941" />
-    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584202460309">
+    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584271918018">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584202460309" />
-    <state width="1200" height="297" key="GridCell.Tab.0.bottom" timestamp="1584215389862">
+    <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584271918018" />
+    <state width="1200" height="240" key="GridCell.Tab.0.bottom" timestamp="1584272933214">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state width="1200" height="297" key="GridCell.Tab.0.center" timestamp="1584215389862">
+    <state width="1200" height="240" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584272933214" />
+    <state width="1200" height="240" key="GridCell.Tab.0.center" timestamp="1584272933214">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state width="1200" height="297" key="GridCell.Tab.0.left" timestamp="1584215389862">
+    <state width="1200" height="240" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584272933214" />
+    <state width="1200" height="240" key="GridCell.Tab.0.left" timestamp="1584272933214">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state width="1200" height="297" key="GridCell.Tab.0.right" timestamp="1584215389862">
+    <state width="1200" height="240" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584272933214" />
+    <state width="1200" height="240" key="GridCell.Tab.0.right" timestamp="1584272933214">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
+    <state width="1200" height="240" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584272933214" />
     <state width="1200" height="297" key="GridCell.Tab.1.bottom" timestamp="1584215389863">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
