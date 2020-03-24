@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AverageLength.java" afterDir="false" />
+    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="add class AverageLength">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MainTask/Months.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MainTask/Months.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MainTask/RandomNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MainTask/RandomNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MainTask/ShortLongNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MainTask/ShortLongNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/MainTask/SummMulti.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/MainTask/SummMulti.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +30,6 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="6" />
-    <option name="y" value="-10" />
-    <option name="width" value="1378" />
-    <option name="height" value="780" />
-  </component>
   <component name="ProjectId" id="1Yu2kFOCDBuiO0TYxFCcuzVRyxN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,9 +45,16 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunManager" selected="Application.AverageLength">
+  <component name="RunManager" selected="Application.DifferentNumbers">
     <configuration name="AverageLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageLength" />
+      <module name="MainTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DifferentNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DifferentNumbers" />
       <module name="MainTask" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,28 +82,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SummMulti" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SummMulti" />
-      <module name="MainTask" />
-      <option name="PROGRAM_PARAMETERS" value="12 3 78 1 9 5 7" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Months" />
-      <item itemvalue="Application.SummMulti" />
       <item itemvalue="Application.ShortLongNumber" />
       <item itemvalue="Application.SortNumbers" />
       <item itemvalue="Application.AverageLength" />
+      <item itemvalue="Application.DifferentNumbers" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DifferentNumbers" />
         <item itemvalue="Application.AverageLength" />
         <item itemvalue="Application.SortNumbers" />
         <item itemvalue="Application.ShortLongNumber" />
         <item itemvalue="Application.Months" />
-        <item itemvalue="Application.SummMulti" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +122,19 @@
       <option name="presentableId" value="Default" />
       <updated>1583778299882</updated>
     </task>
+    <task id="LOCAL-00001" summary="add class AverageLength">
+      <created>1584881094721</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584881094721</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add class AverageLength" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class AverageLength" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="152" key="#Project_Structure" timestamp="1583778340941">
@@ -145,26 +145,26 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584271918018" />
-    <state x="306" y="89" key="CommitChangelistDialog2" timestamp="1584881064031">
+    <state x="306" y="89" key="CommitChangelistDialog2" timestamp="1585075401154">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="306" y="89" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1584881064031" />
-    <state width="1200" height="240" key="GridCell.Tab.0.bottom" timestamp="1584881064118">
+    <state x="306" y="89" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585075401154" />
+    <state width="1200" height="240" key="GridCell.Tab.0.bottom" timestamp="1585075401219">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584881064118" />
-    <state width="1200" height="240" key="GridCell.Tab.0.center" timestamp="1584881064118">
+    <state width="1200" height="240" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
+    <state width="1200" height="240" key="GridCell.Tab.0.center" timestamp="1585075401219">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1584881064118" />
-    <state width="1200" height="240" key="GridCell.Tab.0.left" timestamp="1584881064118">
+    <state width="1200" height="240" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
+    <state width="1200" height="240" key="GridCell.Tab.0.left" timestamp="1585075401219">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1584881064118" />
-    <state width="1200" height="240" key="GridCell.Tab.0.right" timestamp="1584881064118">
+    <state width="1200" height="240" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
+    <state width="1200" height="240" key="GridCell.Tab.0.right" timestamp="1585075401219">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1584881064118" />
+    <state width="1200" height="240" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
     <state width="1200" height="297" key="GridCell.Tab.1.bottom" timestamp="1584215389863">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -181,10 +181,14 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state width="1200" height="297" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1584878955822">
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2" timestamp="1584881112126">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1584878955822" />
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584881112126" />
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1585071535545">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1585071535545" />
     <state x="355" y="294" key="git4idea.merge.GitPullDialog" timestamp="1584879034226">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
