@@ -1,3 +1,5 @@
+import javafx.util.Pair;
+
 import java.util.Scanner;
 
 public class DifferentNumbers {
@@ -11,39 +13,31 @@ public class DifferentNumbers {
         String stringNumbers = in.nextLine();
         String[] numbers = stringNumbers.split(" ");
         in.close();
-        String[] chgNum = findDifNum(numbers);
-        for (String s : chgNum) System.out.println(s);
-        showMinValue(chgNum);
+        Pair<String, Integer> result = getMinNonRepeatableNumbersString(numbers);
+        System.out.printf(TEXT_RESULT, result.getKey(), result.getValue());
     }
 
-    private static String[] findDifNum(String[] numbers) {
-        String[] num = new String[numbers.length];
-        for (int i = 0; i < numbers.length; i++) { //cycle for array
-            char[] chArray = numbers[i].toCharArray(); //convert to char array
-            System.out.println(chArray);
-            if (chArray.length > 1) {                   // do cheking if array length more than 1
-                for (int n = 0; n < chArray.length - 1; n++) {
-                    for (int m = n + 1; m < chArray.length; m++) {
-                        if (chArray[n] == chArray[m]) {
-                            chArray[m] = ' ';
-                        }
-                    }
-                }
+    private static Pair<String, Integer> getMinNonRepeatableNumbersString(String[] numbers) {
+        String resultString = null;
+        Integer number = null;
+        for (String strNumber : numbers) {
+            int repeats = getNumberRepeats(strNumber);
+            if (number == null || repeats < number) {
+                resultString = strNumber;
+                number = repeats;
             }
-            numbers[i] = new String(chArray);
-            num [i] = numbers[i].replaceAll("\\ ","");
         }
-        return num;
+        return new Pair<>(resultString, number);
     }
-    private static void showMinValue (String[] numbers){
-        String Value = numbers[0];
-        int minCount = numbers[0].length();
-        for (int i=1;i<numbers.length;i++){
-            if (minCount>numbers[i].length()){
-                minCount = numbers[i].length();
-                Value = numbers[i];
-            }
+
+    private static int getNumberRepeats(final String strNumber) {
+        String tempString = new String(strNumber);
+        int count = 0;
+        while (tempString.length() > 0) {
+            char tempChar = tempString.charAt(0);
+            tempString = tempString.replaceAll(String.valueOf(tempChar), "");
+            count++;
         }
-        System.out.printf(TEXT_RESULT,Value,minCount);
+        return count;
     }
 }
