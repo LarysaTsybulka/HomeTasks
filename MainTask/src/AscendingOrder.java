@@ -24,7 +24,6 @@ public class AscendingOrder {
     private static boolean findAscendingNumber (String number){
         int previous = 0;
         int next = 0;
-        int up = 0;
         boolean condition = true;
         char[] tempString = number.toCharArray();
         for (int i = 0; i< tempString.length-1;i++){

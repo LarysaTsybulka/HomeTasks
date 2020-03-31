@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="add class AverageLength">
+    <list default="true" id="fb1263b2-8578-4762-82ae-a0e8c0879244" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MinCountDifferentNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AscendingOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AscendingOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DifferentNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DifferentNumbers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,12 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -46,6 +55,13 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunManager" selected="Application.DifferentNumbers">
+    <configuration name="AscendingOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AscendingOrder" />
+      <module name="MainTask" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AverageLength" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AverageLength" />
       <module name="MainTask" />
@@ -60,42 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Months" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Months" />
+    <configuration name="EvenOddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EvenOddNumbers" />
       <module name="MainTask" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortLongNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortLongNumber" />
-      <module name="MainTask" />
-      <option name="PROGRAM_PARAMETERS" value="135 1 12 568765 131 2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SortNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortNumbers" />
+    <configuration name="MinCountDifferentNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MinCountDifferentNumbers" />
       <module name="MainTask" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Months" />
-      <item itemvalue="Application.ShortLongNumber" />
-      <item itemvalue="Application.SortNumbers" />
       <item itemvalue="Application.AverageLength" />
+      <item itemvalue="Application.EvenOddNumbers" />
+      <item itemvalue="Application.AscendingOrder" />
+      <item itemvalue="Application.MinCountDifferentNumbers" />
       <item itemvalue="Application.DifferentNumbers" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.DifferentNumbers" />
+        <item itemvalue="Application.AscendingOrder" />
+        <item itemvalue="Application.EvenOddNumbers" />
+        <item itemvalue="Application.MinCountDifferentNumbers" />
         <item itemvalue="Application.AverageLength" />
-        <item itemvalue="Application.SortNumbers" />
-        <item itemvalue="Application.ShortLongNumber" />
-        <item itemvalue="Application.Months" />
       </list>
     </recent_temporary>
   </component>
@@ -129,12 +137,52 @@
       <option name="project" value="LOCAL" />
       <updated>1584881094721</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add classDifferentNumbers">
+      <created>1585075418264</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1585075418264</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Minor improvements for AverageLength">
+      <created>1585152866874</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1585152866878</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Minor improvements for DifferentNumbers">
+      <created>1585158195562</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1585158195563</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add class EvenOddNumbers">
+      <created>1585499823155</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585499823155</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add class AscendingOrder">
+      <created>1585595060077</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1585595060077</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add class AverageLength" />
-    <option name="LAST_COMMIT_MESSAGE" value="add class AverageLength" />
+    <MESSAGE value="add classDifferentNumbers" />
+    <MESSAGE value="Minor improvements for AverageLength" />
+    <MESSAGE value="Minor improvements for DifferentNumbers" />
+    <MESSAGE value="add class EvenOddNumbers" />
+    <MESSAGE value="add class AscendingOrder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add class AscendingOrder" />
   </component>
   <component name="WindowStateProjectService">
     <state x="232" y="152" key="#Project_Structure" timestamp="1583778340941">
@@ -145,50 +193,58 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="122" y="15" width="1092" height="681" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.984@0.0.1280.984" timestamp="1584271918018" />
-    <state x="306" y="89" key="CommitChangelistDialog2" timestamp="1585075401154">
+    <state x="445" y="200" key="#com.intellij.ide.util.MemberChooser" timestamp="1585152316153">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="306" y="89" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585075401154" />
-    <state width="1200" height="240" key="GridCell.Tab.0.bottom" timestamp="1585075401219">
+    <state x="445" y="200" key="#com.intellij.ide.util.MemberChooser/0.0.1280.984@0.0.1280.984" timestamp="1585152316153" />
+    <state x="306" y="89" key="CommitChangelistDialog2" timestamp="1585595058087">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
-    <state width="1200" height="240" key="GridCell.Tab.0.center" timestamp="1585075401219">
+    <state x="306" y="89" key="CommitChangelistDialog2/0.0.1280.984@0.0.1280.984" timestamp="1585595058087" />
+    <state width="1236" height="258" key="GridCell.Tab.0.bottom" timestamp="1585680235537">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
-    <state width="1200" height="240" key="GridCell.Tab.0.left" timestamp="1585075401219">
+    <state width="1236" height="258" key="GridCell.Tab.0.bottom/0.0.1280.984@0.0.1280.984" timestamp="1585680235537" />
+    <state width="1236" height="258" key="GridCell.Tab.0.center" timestamp="1585680235537">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
-    <state width="1200" height="240" key="GridCell.Tab.0.right" timestamp="1585075401219">
+    <state width="1236" height="258" key="GridCell.Tab.0.center/0.0.1280.984@0.0.1280.984" timestamp="1585680235537" />
+    <state width="1236" height="258" key="GridCell.Tab.0.left" timestamp="1585680235537">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="240" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1585075401219" />
-    <state width="1200" height="297" key="GridCell.Tab.1.bottom" timestamp="1584215389863">
+    <state width="1236" height="258" key="GridCell.Tab.0.left/0.0.1280.984@0.0.1280.984" timestamp="1585680235537" />
+    <state width="1236" height="258" key="GridCell.Tab.0.right" timestamp="1585680235537">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1584215389863" />
-    <state width="1200" height="297" key="GridCell.Tab.1.center" timestamp="1584215389862">
+    <state width="1236" height="258" key="GridCell.Tab.0.right/0.0.1280.984@0.0.1280.984" timestamp="1585680235537" />
+    <state width="1236" height="319" key="GridCell.Tab.1.bottom" timestamp="1585680166371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state width="1200" height="297" key="GridCell.Tab.1.left" timestamp="1584215389862">
+    <state width="1236" height="319" key="GridCell.Tab.1.bottom/0.0.1280.984@0.0.1280.984" timestamp="1585680166371" />
+    <state width="1236" height="319" key="GridCell.Tab.1.center" timestamp="1585680166371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state width="1200" height="297" key="GridCell.Tab.1.right" timestamp="1584215389862">
+    <state width="1236" height="319" key="GridCell.Tab.1.center/0.0.1280.984@0.0.1280.984" timestamp="1585680166371" />
+    <state width="1236" height="319" key="GridCell.Tab.1.left" timestamp="1585680166371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state width="1200" height="297" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1584215389862" />
-    <state x="232" y="227" key="Vcs.Push.Dialog.v2" timestamp="1584881112126">
+    <state width="1236" height="319" key="GridCell.Tab.1.left/0.0.1280.984@0.0.1280.984" timestamp="1585680166371" />
+    <state width="1236" height="319" key="GridCell.Tab.1.right" timestamp="1585680166371">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="232" y="227" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1584881112126" />
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1585071535545">
+    <state width="1236" height="319" key="GridCell.Tab.1.right/0.0.1280.984@0.0.1280.984" timestamp="1585680166371" />
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2" timestamp="1585595072028">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1585071535545" />
+    <state x="232" y="227" key="Vcs.Push.Dialog.v2/0.0.1280.984@0.0.1280.984" timestamp="1585595072028" />
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog" timestamp="1585151803961">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="347" y="318" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1585151803961" />
+    <state x="344" y="392" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585152599112">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="344" y="392" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.984@0.0.1280.984" timestamp="1585152599112" />
     <state x="355" y="294" key="git4idea.merge.GitPullDialog" timestamp="1584879034226">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
@@ -197,5 +253,16 @@
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="348" y="125" key="refactoring.ChangeSignatureDialog/0.0.1280.984@0.0.1280.984" timestamp="1583780985731" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/DifferentNumbers.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -1,43 +1,42 @@
-import javafx.util.Pair;
-
 import java.util.Scanner;
 
 public class DifferentNumbers {
-    private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
-    private static final String TEXT_RESULT = "Число в котором количество различных цифр минимально: %s," +
-            " количество различных цифр равно: %d";
-
-    public static void main(String[] args) {
+    private static final String TEXT_INPUT = "Введите числа через пробел: ";
+    private static final String TEXT_RESULT = "Первое число, состоящее только из различных цифр: %s";
+    public static void main (String[] args){
         Scanner in = new Scanner(System.in);
-        System.out.println(TEXT_ENTER_NUMBER);
+        System.out.println(TEXT_INPUT);
         String stringNumbers = in.nextLine();
         String[] numbers = stringNumbers.split(" ");
         in.close();
-        Pair<String, Integer> result = getMinNonRepeatableNumbersString(numbers);
-        System.out.printf(TEXT_RESULT, result.getKey(), result.getValue());
+        showDifferentNumber (numbers);
     }
 
-    private static Pair<String, Integer> getMinNonRepeatableNumbersString(String[] numbers) {
-        String resultString = null;
-        Integer number = null;
-        for (String strNumber : numbers) {
-            int repeats = getNumberRepeats(strNumber);
-            if (number == null || repeats < number) {
-                resultString = strNumber;
-                number = repeats;
+    private static void showDifferentNumber(String[] numbers){
+        for (String num:numbers){
+            if (findDifferentNumber(num)==true){
+                System.out.printf(TEXT_RESULT, num);
+                break;
             }
         }
-        return new Pair<>(resultString, number);
     }
 
-    private static int getNumberRepeats(final String strNumber) {
-        String tempString = new String(strNumber);
-        int count = 0;
-        while (tempString.length() > 0) {
-            char tempChar = tempString.charAt(0);
-            tempString = tempString.replaceAll(String.valueOf(tempChar), "");
-            count++;
+    private static boolean findDifferentNumber (String number){
+        boolean condition = true;
+        int previous = 0;
+        int next = 0;
+        char[] tempString = number.toCharArray();
+        for (int i = 0; i< tempString.length-1;i++){
+            for (int j = i+1; j< tempString.length;j++){
+                previous = Character.getNumericValue(tempString[i]);
+                next = Character.getNumericValue(tempString[j]);
+                if (previous==next){
+                    condition = false;
+                    break;
+                }
+            }
+
         }
-        return count;
+        return condition;
     }
 }
