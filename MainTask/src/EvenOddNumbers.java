@@ -1,4 +1,7 @@
+import java.util.Arrays;
 import java.util.Scanner;
+
+import static java.lang.Character.getNumericValue;
 
 public class EvenOddNumbers {
     private static final String TEXT_INPUT = "Введите числа через пробел: ";
@@ -19,41 +22,36 @@ public class EvenOddNumbers {
         int countEven = 0;
         int countEqual = 0;
         for (String num : numbers) {
-            if (findEvenNumbers(num) == true) {
+            if (findEvenNumbers(num)) {
                 countEven++;
-                System.out.println(num);
-            } else if(findEvenOddNumbers(num) == true) {
+            } else if(findEvenOddNumbers(num)) {
                 countEqual++;
-                System.out.println(num);
             }
         }
-        System.out.printf(TEXT_COUNT_EVEN_NUMBERS, countEven);
+        System.out.print(Arrays.toString(numbers)+"\n");
+        System.out.printf(TEXT_COUNT_EVEN_NUMBERS+"\n", countEven);
         System.out.printf(TEXT_COUNT_EQUAL_NUMBERS, countEqual);
     }
 
     private static boolean findEvenNumbers(final String strNumber) {
-        char[] tempString = strNumber.toCharArray();
-        boolean condition = true;
-        for (int i = 0; i < tempString.length; i++) {
-            if (Character.getNumericValue(tempString[i]) % 2 != 0) {
-                condition = false;
-                break;
+        for (char number : strNumber.toCharArray()) {
+            if (getNumericValue(number) % 2 != 0) {
+                return false;
             }
         }
-        return condition;
+        return true;
     }
 
     private static boolean findEvenOddNumbers(final String strNumber) {
-        char[] tempString = strNumber.toCharArray();
         int countEven = 0;
         int countOdd = 0;
-        for (int i = 0; i < tempString.length; i++) {
-            if (Character.getNumericValue(tempString[i]) % 2 != 0) {
+        for (char number : strNumber.toCharArray()) {
+            if (getNumericValue(number) % 2 != 0) {
                 countOdd++;
             } else {
                 countEven++;
             }
         }
-        return (countOdd == countEven) ? true : false;
+        return countOdd == countEven;
     }
 }
