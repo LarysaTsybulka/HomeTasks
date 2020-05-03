@@ -45,9 +45,9 @@ public class Task2 {
     private static double[] changeArrayToVector(double[][] array) {
         double[] vector = new double[array.length * array.length];
         int m = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                vector[m] = array[i][j];
+        for (double[] row : array) {
+            for (double item : row) {
+                vector[m] = item;
                 m++;
             }
         }
@@ -57,8 +57,7 @@ public class Task2 {
     private static int findCountAscendingElements(double[] vector) {
         int count = 0;
         int temp = 1;
-        for (int step = 0; step < vector.length; step++) {
-            for (int i = 0; i < vector.length - 1; i++) {
+        for (int i = 0; i < vector.length - 1; i++) {
                 double current = vector[i];
                 double next = vector[i + 1];
                 if (current < next) {
@@ -69,7 +68,6 @@ public class Task2 {
                     }
                     temp = 1;
                 }
-            }
         }
         return count;
     }

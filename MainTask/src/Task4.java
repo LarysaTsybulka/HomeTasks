@@ -5,7 +5,7 @@ import static java.lang.Math.random;
 public class Task4 {
     private static final String TEXT_INPUT = "Введите размерность массива: ";
     private static final String TEXT_OUTPUT = "Массив: ";
-    private static final String TEXT_OUTPUT_MAX_ELEMENT = "Максимальный элемент:";
+    private static final String TEXT_OUTPUT_MAX_ELEMENT = "Максимальный элемент: %4.2f\n";
     private static final int MIN_VALUE = -20;
     private static final int MAX_VALUE = 20;
 
@@ -15,11 +15,11 @@ public class Task4 {
         int n = in.nextInt();
         in.close();
         double[][] array = generateArray(n);
-
-        System.out.println(TEXT_OUTPUT);
+        System.out.println(TEXT_INPUT);
         printArray(array);
         double maxElem = findMaxElement(array);
-        deleteRowsColumns(array, maxElem);
+        System.out.printf(TEXT_OUTPUT_MAX_ELEMENT, maxElem);
+        deleteRowsAndColumns(array, maxElem);
         System.out.println(TEXT_OUTPUT);
         printArray(array);
     }
@@ -45,25 +45,25 @@ public class Task4 {
 
     private static double findMaxElement(double[][] array) {
         double maxElem = 0;
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                if (array[i][j] > maxElem) {
-                    maxElem = array[i][j];
+        for (double[] row : array) {
+            for (double item : row) {
+                if (item > maxElem) {
+                    maxElem = item;
                 }
             }
         }
         return maxElem;
     }
-    private static void deleteRowsColumns(double[][] array, double maxElem) {
+    private static void deleteRowsAndColumns(double[][] array, double maxElem) {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array[i].length; j++) {
                 if (array[i][j] == maxElem) {
-                    deleting(array, i,j);
+                    delete(array, i,j);
                 }
             }
         }
     }
-    private static void deleting(double[][] array, int m, int n) {
+    private static void delete(double[][] array, int m, int n) {
         for (int j = 0; j < array.length; j++) {
             array[m][j] = 0;
         }
