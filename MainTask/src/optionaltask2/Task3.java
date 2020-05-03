@@ -1,11 +1,14 @@
+package optionaltask2;
+
 import java.util.Scanner;
 
 import static java.lang.Math.random;
 
-public class Task2 {
+
+public class Task3 {
     private static final String TEXT_INPUT = "Введите размерность массива: ";
     private static final String TEXT_OUTPUT = "Массив: ";
-    private static final String TEXT_COUNT_ASCENDING_ELEMENTS = "Наибольшее количество возрастающих элементов: ";
+    private static final String TEXT_OUTPUT_SUMM_ROW = "Сумма строки:";
     private static final int MIN_VALUE = -20;
     private static final int MAX_VALUE = 20;
 
@@ -13,14 +16,12 @@ public class Task2 {
         Scanner in = new Scanner(System.in);
         System.out.println(TEXT_INPUT);
         int n = in.nextInt();
-
+        in.close();
         double[][] array = generateArray(n);
+
         System.out.println(TEXT_OUTPUT);
         printArray(array);
-
-        double[] vector = changeArrayToVector(array);
-        int count = findCountAscendingElements(vector);
-        System.out.println(TEXT_COUNT_ASCENDING_ELEMENTS + count);
+        findSummElements(array);
     }
 
     private static double[][] generateArray(int n) {
@@ -42,33 +43,24 @@ public class Task2 {
         }
     }
 
-    private static double[] changeArrayToVector(double[][] array) {
-        double[] vector = new double[array.length * array.length];
-        int m = 0;
-        for (double[] row : array) {
-            for (double item : row) {
-                vector[m] = item;
-                m++;
+    private static void findSummElements(double[][] array) {
+
+        for (int i = 0; i < array.length; i++) {
+            double sum = 0;
+            int k = 0;
+            for (int j = 0; j < array[i].length; j++) {
+                if (array[i][j] > 0) {
+                    k++;
+                }
+                if (k == 1 || k == 2) {
+                    sum += array[i][j];
+                }
+                if (k >= 2) {
+                    break;
+                }
             }
+            System.out.println(TEXT_OUTPUT_SUMM_ROW + i + " = " + sum);
         }
-        return vector;
     }
 
-    private static int findCountAscendingElements(double[] vector) {
-        int count = 0;
-        int temp = 1;
-        for (int i = 0; i < vector.length - 1; i++) {
-                double current = vector[i];
-                double next = vector[i + 1];
-                if (current < next) {
-                    temp++;
-                } else {
-                    if (count < temp) {
-                        count = temp;
-                    }
-                    temp = 1;
-                }
-        }
-        return count;
-    }
 }

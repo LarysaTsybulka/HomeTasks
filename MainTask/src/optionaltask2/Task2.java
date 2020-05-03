@@ -1,11 +1,13 @@
+package optionaltask2;
+
 import java.util.Scanner;
 
 import static java.lang.Math.random;
 
-public class Task4 {
+public class Task2 {
     private static final String TEXT_INPUT = "Введите размерность массива: ";
     private static final String TEXT_OUTPUT = "Массив: ";
-    private static final String TEXT_OUTPUT_MAX_ELEMENT = "Максимальный элемент: %4.2f\n";
+    private static final String TEXT_COUNT_ASCENDING_ELEMENTS = "Наибольшее количество возрастающих элементов: ";
     private static final int MIN_VALUE = -20;
     private static final int MAX_VALUE = 20;
 
@@ -13,15 +15,14 @@ public class Task4 {
         Scanner in = new Scanner(System.in);
         System.out.println(TEXT_INPUT);
         int n = in.nextInt();
-        in.close();
+
         double[][] array = generateArray(n);
-        System.out.println(TEXT_INPUT);
-        printArray(array);
-        double maxElem = findMaxElement(array);
-        System.out.printf(TEXT_OUTPUT_MAX_ELEMENT, maxElem);
-        deleteRowsAndColumns(array, maxElem);
         System.out.println(TEXT_OUTPUT);
         printArray(array);
+
+        double[] vector = changeArrayToVector(array);
+        int count = findCountAscendingElements(vector);
+        System.out.println(TEXT_COUNT_ASCENDING_ELEMENTS + count);
     }
 
     private static double[][] generateArray(int n) {
@@ -43,32 +44,33 @@ public class Task4 {
         }
     }
 
-    private static double findMaxElement(double[][] array) {
-        double maxElem = 0;
+    private static double[] changeArrayToVector(double[][] array) {
+        double[] vector = new double[array.length * array.length];
+        int m = 0;
         for (double[] row : array) {
             for (double item : row) {
-                if (item > maxElem) {
-                    maxElem = item;
-                }
+                vector[m] = item;
+                m++;
             }
         }
-        return maxElem;
+        return vector;
     }
-    private static void deleteRowsAndColumns(double[][] array, double maxElem) {
-        for (int i = 0; i < array.length; i++) {
-            for (int j = 0; j < array[i].length; j++) {
-                if (array[i][j] == maxElem) {
-                    delete(array, i,j);
+
+    private static int findCountAscendingElements(double[] vector) {
+        int count = 0;
+        int temp = 1;
+        for (int i = 0; i < vector.length - 1; i++) {
+                double current = vector[i];
+                double next = vector[i + 1];
+                if (current < next) {
+                    temp++;
+                } else {
+                    if (count < temp) {
+                        count = temp;
+                    }
+                    temp = 1;
                 }
-            }
         }
-    }
-    private static void delete(double[][] array, int m, int n) {
-        for (int j = 0; j < array.length; j++) {
-            array[m][j] = 0;
-        }
-        for (int i = 0; i < array.length; i++) {
-            array[i][n] = 0;
-        }
+        return count;
     }
 }
