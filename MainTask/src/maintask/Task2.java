@@ -1,6 +1,6 @@
 package maintask;
 
-public class CommLineArguments {
+public class Task2 {
 
     public static void main(String args[]) {
         System.out.println("Аргументы командной строки в обратном порядке:");

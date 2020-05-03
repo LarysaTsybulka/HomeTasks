@@ -3,7 +3,7 @@ package maintask;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Months {
+public class Task5 {
     private static final String TEXT_PUT_MONTH = "Введите номер месяца: ";
     private static final String TEXT_WRONG_MONTH = "Такого месяца не сущесвует!";
     private static final String TEXT_WRONG_NUMBER = "Введен неверный формат числа!";

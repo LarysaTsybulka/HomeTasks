@@ -1,6 +1,6 @@
 package maintask;
 
-public class SummMulti {
+public class Task4 {
 
     private static final String TEXT_SUMM = "Сумма чисел равна: %d%n";
     private static final String TEXT_MULTI = "Произведение чисел равно: %d%n";

@@ -2,7 +2,7 @@ package maintask;
 
 import java.util.Scanner;
 
-public class RandomNumbers {
+public class Task3 {
 
     private static final String TEXT_PUT_COUNT = "Введите количество случайных чисел для генерации: ";
     private static final String TEXT_WITHOUT_NEW_LINE = "Вывод чисел без перехода на новую строку:";

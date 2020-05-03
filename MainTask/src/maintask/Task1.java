@@ -2,7 +2,7 @@ package maintask;
 
 import java.util.Scanner;
 
-public class HelloUser {
+public class Task1 {
 
     private static final String TEXT_PUT_NAME = "Введите имя: ";
     private static final String TEXT_GREETING = "Приветствую Вас, %s";
