@@ -1,4 +1,4 @@
-package maintasks;
+package maintask;
 
 public class SummMulti {
 
