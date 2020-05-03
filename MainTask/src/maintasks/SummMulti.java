@@ -1,3 +1,5 @@
+package maintasks;
+
 public class SummMulti {
 
     private static final String TEXT_SUMM = "Сумма чисел равна: %d%n";

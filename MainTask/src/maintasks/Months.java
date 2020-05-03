@@ -1,3 +1,5 @@
+package maintasks;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

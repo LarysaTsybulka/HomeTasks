@@ -1,3 +1,5 @@
+package maintasks;
+
 import java.util.Scanner;
 
 public class HelloUser {
