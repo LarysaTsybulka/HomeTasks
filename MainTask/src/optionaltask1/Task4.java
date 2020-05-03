@@ -4,7 +4,7 @@ import javafx.util.Pair;
 
 import java.util.Scanner;
 
-public class MinCountDifferentNumbers {
+public class Task4 {
     private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
     private static final String TEXT_RESULT = "Число в котором количество различных цифр минимально: %s," +
             " количество различных цифр равно: %d";

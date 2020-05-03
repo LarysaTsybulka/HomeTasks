@@ -2,7 +2,7 @@ package optionaltask1;
 
 import java.util.Scanner;
 
-public class Sorting {
+public class Task2 {
     private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
     private static final String TEXT_SORT_ASC = "Сортировка по возрастанию: ";
     private static final String TEXT_SORT_DESC = "Сортировка по убыванию: ";

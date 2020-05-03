@@ -2,7 +2,7 @@ package optionaltask1;
 
 import java.util.Scanner;
 
-public class ShortLongNumber {
+public class Task1 {
 
     private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
     private static final String TEXT_RESULT = "%nСамое короткое число: %s, его длина: %d%nСамое длинное число: %s, его длина: %d";

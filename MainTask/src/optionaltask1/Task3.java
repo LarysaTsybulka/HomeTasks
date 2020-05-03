@@ -2,7 +2,7 @@ package optionaltask1;
 
 import java.util.Scanner;
 
-public class AverageLength {
+public class Task3 {
     private static final String TEXT_ENTER_NUMBER = "Введите числа через пробел: ";
     private static final String TEXT_AVERAGE_LENGTH = "Средняя длина по всем числам  равна: %d %n";
     private static final String SHOW_NUMBER_LESS_LENGTH = "Числа, длина которых меньше средней:";

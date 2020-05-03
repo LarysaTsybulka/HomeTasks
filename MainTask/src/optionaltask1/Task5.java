@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import static java.lang.Character.getNumericValue;
 
-public class EvenOddNumbers {
+public class Task5 {
     private static final String TEXT_INPUT = "Введите числа через пробел: ";
     private static final String TEXT_COUNT_EVEN_NUMBERS = "Количество чисел, которые содержат четных цифры: %d";
     private static final String TEXT_COUNT_EQUAL_NUMBERS = "Количество чисел, которые содержат равное " +

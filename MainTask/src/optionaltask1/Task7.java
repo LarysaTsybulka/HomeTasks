@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.Character.getNumericValue;
 
-public class DifferentNumbers {
+public class Task7 {
     private static final String TEXT_INPUT = "Введите числа через пробел: ";
     private static final String TEXT_RESULT = "Первое число, состоящее только из различных цифр: %s";
 

@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import static java.lang.Character.getNumericValue;
 
-public class AscendingOrder {
+public class Task6 {
     private static final String TEXT_INPUT = "Введите числа через пробел: ";
     private static final String TEXT_RESULT = "Первое число, цифры в котором расположены по возрастанию: %s";
 
