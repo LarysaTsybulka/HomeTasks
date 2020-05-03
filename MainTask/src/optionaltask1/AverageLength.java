@@ -1,3 +1,5 @@
+package optionaltask1;
+
 import java.util.Scanner;
 
 public class AverageLength {

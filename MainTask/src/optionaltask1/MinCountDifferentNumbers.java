@@ -1,3 +1,5 @@
+package optionaltask1;
+
 import javafx.util.Pair;
 
 import java.util.Scanner;
